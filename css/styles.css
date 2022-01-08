@@ -1,7 +1,7 @@
 body {
   width: 100%;
   height: 100%;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: #ffffff;
 }
 .header {
@@ -53,9 +53,6 @@ ul {
 }
 .header-contacts a {
   color: #757575;
-}
-.header-list:hover a {
-  color: #2196f3;
 }
 .main {
   width: 100%;
@@ -166,17 +163,14 @@ ul {
   display: flex;
   flex-direction: column;
 }
-.address a {
-  padding-bottom: 10px;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-
-  color: rgba(255, 255, 255, 0.6);
+.address ul li {
+  list-style-type: none;
+  margin-bottom: 10px;
 }
-a[href*='maps'] {
+.address:hover ul li {
+  color: #2196f3;
+}
+a[href*="maps"] {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
