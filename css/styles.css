@@ -166,10 +166,9 @@ ul {
 .address ul li {
   list-style-type: none;
   margin-bottom: 10px;
+  font-style: normal;
 }
-.address:hover ul li {
-  color: #2196f3;
-}
+
 a[href*="maps"] {
   font-style: normal;
   font-weight: normal;
